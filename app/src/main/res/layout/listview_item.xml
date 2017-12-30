@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99ff33"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/idlabel"
+        android:layout_width="117dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:text="ID:" />
+
+    <Button
+        android:id="@+id/id"
+        android:layout_width="79dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/idlabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/namelabel"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/idlabel"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:textSize="20sp"
+        android:text="NAME:" />
+
+    <Button
+        android:id="@+id/name"
+        android:layout_width="327dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/site"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/namelabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/doblabel"
+        android:layout_width="96dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:text="DOB:" />
+
+    <Button
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/doblabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/addresslabel"
+        android:layout_width="117dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:text="ADDRESS:" />
+
+    <Button
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/addresslabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/genderlabel"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/addresslabel"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:text="GENDER:" />
+
+    <Button
+        android:id="@+id/gender"
+        android:layout_width="327dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/site"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/genderlabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/emaillabel"
+        android:layout_width="96dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:text="EMAIL:" />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/emaillabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/passwordlabel"
+        android:layout_width="117dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:text="PASSWORD:" />
+
+    <Button
+        android:id="@+id/password"
+        android:layout_width="79dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/passwordlabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/contactlabel"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/contactlabel"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33"
+        android:text="CONTACT:" />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="327dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/password"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/contactlabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+    <TextView
+        android:id="@+id/emergencycontactlabel"
+        android:layout_width="96dp"
+        android:layout_height="29dp"
+        android:text="EMERGENCY:"
+        android:layout_gravity="center_horizontal"
+        android:background="#99ff33" />
+
+    <Button
+        android:id="@+id/emergencycontact"
+        android:layout_width="327dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/emergencycontact"
+        android:layout_gravity="center_horizontal"
+        android:layout_toRightOf="@+id/contactlabel"
+        android:background="#99ff33"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal" />
+
+</LinearLayout>
